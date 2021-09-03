@@ -2,13 +2,13 @@
   "name": "erpbackapis",
   "version": "1.0.0",
   "description": "erpbackapis",
-  "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "dev": "nodemon ./bin/www",
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "express": "^4.17.1",
+    "http-errors": "^1.7.2",
     "mysql2": "^2.3.0",
     "nodemon": "^2.0.12",
     "sequelize": "^6.6.5"
